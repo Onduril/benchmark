@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{e18b6db8-f436-4970-beb0-b8a1a0094abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{73e5b8c3-1446-4099-827f-d63784cc5fee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\benchmark\benchmark.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\benchmark\benchmark_api.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\benchmark\macros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\benchmark\reporter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\arraysize.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\benchmark_api_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\check.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\colorprint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\commandlineflags.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\complexity.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cycleclock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\internal_macros.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\log.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mutex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\re.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sleep.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\string_util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sysinfo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\timers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\benchmark.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\benchmark_register.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\colorprint.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\commandlineflags.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\complexity.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\console_reporter.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\csv_reporter.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\json_reporter.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\reporter.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sleep.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\string_util.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sysinfo.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\timers.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

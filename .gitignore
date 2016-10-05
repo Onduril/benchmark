@@ -44,3 +44,8 @@ rules.ninja
 # out-of-source build top-level folders.
 build/
 _build/
+*.suo
+/projects/Debug/Benchmark.tlog
+/projects/Debug
+*.db
+*.opendb
