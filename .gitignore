@@ -49,3 +49,8 @@ _build/
 /projects/Debug
 *.db
 *.opendb
+/projects/tmp
+/projects/Win32/Release
+/projects/x64/Release
+/projects/x64/Debug
+/projects/Win32/Debug
